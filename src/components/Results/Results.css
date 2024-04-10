@@ -1,0 +1,11 @@
+.results-container{
+    min-height: 60vh;
+    width: 70vw;
+    display: flex;
+ 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 50px auto;
+
+}

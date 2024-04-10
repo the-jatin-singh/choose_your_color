@@ -1,0 +1,45 @@
+.footer-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+.footer-container h1{
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 20px;
+    font-size: 24px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 10px; 
+    }
+
+    .footer-container h1 {
+        letter-spacing: 5px; 
+        font-size: 16px; 
+    }
+
+    .footer-links {
+        gap: 10px; 
+        margin-top: 5px; 
+    }
+
+    .footer-links a{
+        font-size: 10px;
+    }
+}

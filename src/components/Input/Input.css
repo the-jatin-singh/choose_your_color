@@ -1,0 +1,23 @@
+.input-container{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #e4e6f6;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .input-container input {
+        font-size: 14px;
+        width: 80%;
+    }
+}

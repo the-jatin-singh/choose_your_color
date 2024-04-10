@@ -1,0 +1,16 @@
+.hero-container{
+    margin: 20px 0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-block{
+    height: 30vw;
+    width: 30vw;
+    background-color: #ccd8e5;
+}

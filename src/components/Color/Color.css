@@ -1,0 +1,12 @@
+.color-container{
+    width: 200px;
+}
+
+.bg{
+    height: 150px;
+    width: 100%;
+}
+
+.color-container span{
+    background-color: #e4e6f6;
+}
