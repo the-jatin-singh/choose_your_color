@@ -10,3 +10,9 @@
 .color-container span{
     background-color: #e4e6f6;
 }
+
+@media (max-width: 768px) {
+.color-container{
+    width: 250px;
+}
+}
